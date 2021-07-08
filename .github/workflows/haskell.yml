@@ -9,3 +9,4 @@ jobs:
       - uses: haskell/actions/setup@v1
       - run: runhaskell ch2/hello_world.hs
       - run: runhaskell ch3/*.hs
+      - run: runhaskell ch4/*.hs
